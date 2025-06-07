@@ -1,63 +1,149 @@
 # @mpmg/svelte-essentials
 
-Um design system moderno construído com Svelte 5 e DaisyUI, fornecendo componentes essenciais para aplicações MPMG.
+A comprehensive Svelte 5 design system built on top of DaisyUI, providing a collection of accessible and customizable components.
 
-## Características
-
-- Construído com Svelte 5
-- Utiliza DaisyUI para componentes base
-- Suporte completo a TypeScript
-- Temas personalizáveis
-- Documentação com Storybook
-- Zero PostCSS - Utiliza Tailwind CSS puro
-
-## Instalação
+## Installation
 
 ```bash
 npm install @mpmg/svelte-essentials
 ```
 
-## Uso
+## Usage
 
 ```javascript
-// Em seu arquivo .svelte
-import { Button } from '@mpmg/svelte-essentials';
+// In your Svelte file
+import { Button, Alert, Modal } from '@mpmg/svelte-essentials';
 ```
 
-## Desenvolvimento
+## Features
 
-1. Clone o repositório
+- 🎨 Built on top of DaisyUI's theme system
+- ⚡ Svelte 5 powered components
+- 📚 Comprehensive Storybook documentation
+- 🎯 TypeScript support
+- 🔄 SSR compatible
+- 🎭 Fully customizable themes
+
+## Available Components
+
+### Actions
+- [ ] Button
+- [ ] Dropdown
+- [ ] Modal
+- [ ] Swap
+- [ ] Theme Controller
+
+### Data Display
+- [ ] Accordion
+- [ ] Avatar
+- [ ] Badge
+- [ ] Card
+- [ ] Carousel
+- [ ] Chat Bubble
+- [ ] Collapse
+- [ ] Countdown
+- [ ] Diff
+- [ ] Kbd
+- [ ] List
+- [ ] Stat
+- [ ] Status
+- [ ] Table
+- [ ] Timeline
+
+### Navigation
+- [ ] Breadcrumbs
+- [ ] Dock
+- [ ] Link
+- [ ] Menu
+- [ ] Navbar
+- [ ] Pagination
+- [ ] Steps
+- [ ] Tab
+
+### Feedback
+- [ ] Alert
+- [ ] Loading
+- [ ] Progress
+- [ ] Radial Progress
+- [ ] Skeleton
+- [ ] Toast
+- [ ] Tooltip
+
+### Data Input
+- [ ] Calendar
+- [ ] Checkbox
+- [ ] Fieldset
+- [ ] File Input
+- [ ] Filter
+- [ ] Label
+- [ ] Radio
+- [ ] Range
+- [ ] Rating
+- [ ] Select
+- [ ] Input Field
+- [ ] Textarea
+- [ ] Toggle
+- [ ] Validator
+
+### Layout
+- [ ] Divider
+- [ ] Drawer
+- [ ] Footer
+- [ ] Hero
+- [ ] Indicator
+- [ ] Join (Group Items)
+- [ ] Mask
+- [ ] Stack
+
+
+## Development
+
+### Prerequisites
+
 ```bash
-git clone https://github.com/RenanWinter/svelte-essentials.git
+node >= 18
+npm >= 9
+```
+
+### Setup
+
+1. Clone the repository
+```bash
+git clone [repository-url]
 cd svelte-essentials
 ```
 
-2. Instale as dependências
+2. Install dependencies
 ```bash
 npm install
 ```
 
-3. Inicie o ambiente de desenvolvimento
-```bash
-npm run dev
-```
-
-4. Para visualizar a documentação dos componentes
+3. Run Storybook
 ```bash
 npm run storybook
 ```
 
-## Scripts Disponíveis
+4. Run tests
+```bash
+npm test
+```
 
-- `npm run dev` - Inicia o ambiente de desenvolvimento
-- `npm run build` - Compila o projeto para produção
-- `npm run preview` - Visualiza a versão de produção localmente
-- `npm run storybook` - Inicia o Storybook para desenvolvimento de componentes
-- `npm run build-storybook` - Compila a documentação do Storybook
-- `npm run check` - Executa verificações de tipo
-- `npm run lint` - Executa o linter
-- `npm run format` - Formata o código
+## Documentation
 
-## Licença
+Full documentation is available in our Storybook. Run it locally or visit [documentation-url].
+
+## Contributing
+
+We welcome contributions! Please read our contributing guidelines before submitting pull requests.
+
+## License
 
 MIT
+
+## Support
+
+For support, please open an issue in the GitHub repository or contact the maintainers.
+
+## Acknowledgments
+
+This design system is built on top of [DaisyUI](https://daisyui.com/), a wonderful Tailwind CSS component library.
