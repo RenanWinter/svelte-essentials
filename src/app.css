@@ -1,2 +1,7 @@
 @import 'tailwindcss';
 @plugin "daisyui";
+
+:root {
+	--brand-color:rgb(177, 12, 236);
+    --brand-color-contrast:rgb(255, 255, 255);
+}
